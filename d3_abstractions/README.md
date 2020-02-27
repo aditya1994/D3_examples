@@ -7,7 +7,6 @@ This visualization shows two side by side visualizations showing a World Map and
 
 1. clone the repo
 2. In terminal: cd D3_examples/d3_abstractions && http-server
-3. go to index.html
 
 
 
