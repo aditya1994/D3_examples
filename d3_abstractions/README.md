@@ -1,6 +1,6 @@
 # Abstraction of Data using World Map and Bubble Chart
 
-This visualization shows two side by side visualizations showing a World Map and Bubble Charts to explain data abstractions.
+This visualization shows two side by side visualizations showing a World Map and Bubble Charts to explain data abstraction. Find the data set used in the data folder. 
 
 
 # How to Use
@@ -10,13 +10,15 @@ This visualization shows two side by side visualizations showing a World Map and
 3. go to index.html
 
 
-Domain abstraction:
+
+
+## Domain abstraction:
 
 
 The main users of this UI are Students and Researchers who are interested in understanding how countries on the extreme ends of Population Density perform on other metrics. This Visualization paints the World Map on the basis of population density and then shows how the country is performing on other areas compared to other countries in it's continent.
 
 
-Data abstraction:
+## Data abstraction:
 
 
 2 datasets are used in this Visualization and their types are: 1) Countries.geojson which represents the World map is Geometry (Spatial). 2) Countries_processed.csv which has the rows of data where each row corresponds to one country and it's related metrics is Tabular in nature.
@@ -38,7 +40,7 @@ Population Density - Ordered, Quantitative
 Data Preprocessing: In the Bubble Chart, for each country and all it's metrics, averages were calculated for all the countries in the same region.
 
 
-Task abstraction:
+## Task abstraction:
 
 These are the specific {action, target} pairs in this Visualization:
 {Discover Population Density} for different countries. This task help users in finding countries with very high or very low Population Densities and correlate it with other metrics of that country.
@@ -55,7 +57,7 @@ Channels: Zoomable Map - Color hue, Size (Area) ; Bubble Chart - Size
 
 Algorithm abstraction:
 
-#Algorithms Used:
+## Algorithms Used:
 
 
 Projections: I am using projections to create the World map to show all the countries in the dataset. Creating projections helped in preserving the features of the map like direction, shape, area etc and map them to the paths I created for the Visualization.
