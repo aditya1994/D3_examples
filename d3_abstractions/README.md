@@ -10,6 +10,8 @@ This visualization shows two side by side visualizations showing a World Map and
 
 
 
+![Image of vis](https://github.com/aditya1994/D3_examples/blob/master/d3_abstractions/images/Screen%20Shot%202020-02-27%20at%2012.59.19%20PM.png)
+
 
 ## Domain abstraction:
 
